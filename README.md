@@ -1,7 +1,7 @@
 # HackTheBox Challenge - Secure Signing Writeup (Easy)
 
-## About this challenge
-I started with some code review and found that signing logic is vulnerable with improper length validation. This allow the incremental brute force attacks to guess flag (xor secret key) with only few attemps. 
+## About this Challenge
+I started this HTB Crypto Challenge with some code review and found that signing logic is vulnerable with improper length validation on xor secret key and input message. This allow the incremental brute force attacks to guess flag with only few attemps. 
 
 ## Installation
 
